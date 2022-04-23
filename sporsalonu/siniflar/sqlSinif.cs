@@ -9,7 +9,7 @@ namespace sporsalonu.siniflar
 {
     class sqlSinif
     {
-        public SqlConnection bag = new SqlConnection(@"Data Source=LAPTOP-KV96ISUM;Initial Catalog=SporMerkezi;Integrated Security=True");
+        public SqlConnection bag = new SqlConnection(@"Data Source=Zeynel;Initial Catalog=SporMerkezi;Integrated Security=True");
         public SqlConnection Baglanti_ac()//baglantıyı açar
         {
             if (bag.State != System.Data.ConnectionState.Open)
